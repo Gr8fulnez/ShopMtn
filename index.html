@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopMtn</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Font Awesome for Icons (Optional) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="headerName">
+          <img src="./asset/Top-layer-Banner_1_1.gif" alt="Animated GIF" />
+        </div>
+
+        <nav class="nav_bar">
+          <div class="wrapper headerNav">
+            <div>
+              <img src="./asset/mtn-online-shop-logo.svg" alt="MTN Logo" />
+            </div>
+
+            <div class="product">
+              <p>All Products</p>
+
+              <div class="search-container">
+                <img class="search-icon" src="./asset/search_icon.svg" alt="" />
+                <input
+                  type="text"
+                  placeholder="Search by products, brands & categories"
+                  class="search-input"
+                />
+              </div>
+            </div>
+
+            <div class="logoList">
+              <img
+                class="logo"
+                src="./asset/moon_outline_icon.svg"
+                alt="Theme Logo"
+              />
+              <img
+                class="logo"
+                src="./asset/people_icon.svg"
+                alt="Profile Icon"
+              />
+              <p>Account</p>
+              <img
+                class="logo"
+                src="./asset/cart_drop_shop_shopping_icon.svg"
+                alt="Cart Icon"
+              />
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="content">
+        <!-- slider -->
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div
+              id="slide-1"
+              class="slide"
+              style="
+                background-image: url('./asset/banner/meetings_desktop__c.jpg');
+                width: 1600px;
+                height: 400px;
+                background-size: cover;
+              "
+            ></div>
+            <div
+              id="slide-2"
+              class="slide"
+              style="
+                background-image: url('./asset/banner/4g-mifi-desktops.jpg');
+                width: 1600px;
+                height: 400px;
+                background-size: cover;
+              "
+            ></div>
+            <div
+              id="slide-3"
+              class="slide"
+              style="
+                background-image: url('./asset/banner/4g-broadband-router-desktop.jpg');
+                width: 1600px;
+                height: 400px;
+                background-size: cover;
+              "
+            ></div>
+          </div>
+
+          <div class="dots">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+          </div>
+        </div>
+
+        <!-- slider -->
+        <!-- service-icons -->
+        <div class="service">
+          <div class="service-icons">
+            <img src="./asset/device1.svg" alt="Devices" />
+          </div>
+          <div class="service-icons">
+            <img src="./asset/airtime2.svg" alt="Airtime" />
+          </div>
+          <div class="service-icons">
+            <img src="./asset/data1.svg" alt="Data" />
+          </div>
+          <div class="service-icons">
+            <img src="./asset/business1.svg" alt="Business" />
+          </div>
+          <div class="service-icons">
+            <img src="./asset/cloud1.svg" alt="Cloud" />
+          </div>
+        </div>
+
+        <!-- BEST SELLERS -->
+        <div class="wrapper">
+          <div class="best-sellers">
+            <p class="best-sellers-desc">Best Sellers</p>
+
+            <div class="best-sellers-btn">
+              <!-- <div class="best-seller-button" style="cursor: pointer">
+              <img src="./asset/images/arrow-left-border-light.webp" alt="" />
+            </div> -->
+              <button
+                class="best-seller-button prev-btn"
+                style="cursor: pointer"
+              >
+                <span class="span_arrow">
+                  <img
+                    src="./asset/images/arrow-left-border-light.webp"
+                    alt=""
+                    style="width: 20px; height: 20px; margin-right: 15px"
+                  />
+                </span>
+              </button>
+              <button
+                class="best-seller-button next-btn"
+                style="cursor: pointer"
+              >
+                <span>
+                  <img src="./asset/images/arrow-right-bun.png" alt="" />
+                </span>
+              </button>
+              <!-- <div class="best-seller-view" style="cursor: pointer"> -->
+              <p class="best-seller-view" style="color: #000000">View All</p>
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="trending-wp new-trend">
+            <div class="mtn-container">
+              <div
+                class="owl-carousel owl-carousel-trending owl-theme tans_img"
+              >
+                <!-- Carousel items -->
+                <div class="carousel-item">
+                  <img src="./asset/5glite.svg" alt="" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    id="slide-2"
+                    class="slide"
+                    src="./asset/mtnBroadband.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    id="slide-3"
+                    class="slide"
+                    src="./asset/4grouter.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    id="slide-4"
+                    class="slide"
+                    src="./asset/4grouterStandard.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    id="slide-5"
+                    class="slide"
+                    src="./asset/eyesyte.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    id="slide-6"
+                    class="slide"
+                    src="./asset/webcam1.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    id="slide-7"
+                    class="slide"
+                    src="./asset/webcam2.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    id="slide-8"
+                    class="slide"
+                    src="./asset/webcam3.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Product -->
+        <div class="wrapper">
+          <div>
+            <div class="featured">
+              <h1>Featured Products</h1>
+              <div class="featured-type">
+                <div class="featured-btn" style="background-color: black">
+                  <p style="color: white">Devices</p>
+                </div>
+                <div class="featured-btn">
+                  <p>Data Bundles</p>
+                </div>
+                <div class="featured-btn">
+                  <p>Business</p>
+                </div>
+                <div class="featured-btn">
+                  <p>Cloud</p>
+                </div>
+              </div>
+
+              <div class="product-list">
+                <div class="products">
+                  <div class="featured-product">
+                    <img src="./asset/premiumR.svg" alt="" />
+                    <h1 class="featured-product-heading">
+                      4G Router (Premium)
+                    </h1>
+                    <p class="featured-product-decsc">
+                      Wireless, broadband internet solution that offers fast…
+                    </p>
+                    <img src="./asset/rating1.svg" alt="" /> <span>(5)</span>
+                    <p>Price</p>
+                    <p class="price">₦40,000.00</p>
+                  </div>
+                  <!--  -->
+                  <div class="featured-product">
+                    <img src="./asset/premiumR.svg" alt="" />
+                    <h1 class="featured-product-heading">
+                      4G Router (Premium)
+                    </h1>
+                    <p class="featured-product-decsc">
+                      Wireless, broadband internet solution that offers fast…
+                    </p>
+                    <img src="./asset/rating1.svg" alt="" /> <span>(5)</span>
+                    <p>Price</p>
+                    <p class="price">₦40,000.00</p>
+                  </div>
+                  <!--  -->
+                  <div class="featured-product">
+                    <img src="./asset/premiumR.svg" alt="" />
+                    <h1 class="featured-product-heading">
+                      4G Router (Premium)
+                    </h1>
+                    <p class="featured-product-decsc">
+                      Wireless, broadband internet solution that offers fast…
+                    </p>
+                    <img src="./asset/rating1.svg" alt="" /> <span>(5)</span>
+                    <p>Price</p>
+                    <p class="price">₦40,000.00</p>
+                  </div>
+                  <!--  -->
+                  <div class="featured-product">
+                    <img src="./asset/premiumR.svg" alt="" />
+                    <h1 class="featured-product-heading">
+                      4G Router (Premium)
+                    </h1>
+                    <p class="featured-product-decsc">
+                      Wireless, broadband internet solution that offers fast…
+                    </p>
+                    <img src="./asset/rating1.svg" alt="" /> <span>(5)</span>
+                    <p>Price</p>
+                    <p class="price">₦40,000.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h-style">
+              <hr class="h" />
+            </div>
+          </div>
+
+          <!-- testimonial -->
+
+          <div class="card-container">
+            <div class="card">
+              <img src="./asset/card.svg" alt="" />
+              <div>
+                <h1>Secure Online Payments</h1>
+                <p>
+                  Protect your financial information and shop with peace of mind
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./asset/delivery.svg" alt="" />
+              <div>
+                <h1>Nationwide Delivery</h1>
+                <p>
+                  Enjoy prompt deliveries of your favourite products nationwide
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./asset/delivery2.svg" alt="" />
+              <div>
+                <h1>Prompt Deliveries Every time</h1>
+                <p>We deliver your packages promptly and reliably</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="wrapper">
+          <section class="footer_section footer_sec1">
+            <div class="footer_sec_item">
+              <img src="./asset/footerEmail.svg" alt="" />
+              <div>
+                <h3 class="footer_sec_title">Sign up for our newsletter</h3>
+                <p class="footer_sec_desc">
+                  Information you’ll use. Emails you’ll look forward to.
+                </p>
+                <input
+                  type="text"
+                  placeholder="Enter your email address"
+                  class="footer_email_input"
+                />
+                <button class="footer_btn">Subscribe</button>
+              </div>
+            </div>
+
+            <!--  -->
+
+            <!--  -->
+            <div class="footer_sec_item">
+              <img src="./asset/footerSupport.svg" alt="" />
+
+              <div>
+                <h3 class="footer_sec_title">24/7 Support</h3>
+                <p class="footer_sec_desc">
+                  We're always eager to help. Dial 300 on an MTN line or
+                </p>
+                <p class="footer_sec_desc">
+                  <span class="footer_sec_title">08031000300</span> on any
+                  network for all enquiries.
+                </p>
+              </div>
+            </div>
+            <div class="footer_sec_item">
+              <img src="./asset/footEmailOpen.svg" alt="" />
+              <div>
+                <h3 class="footer_sec_title">Stay in touch with Us!</h3>
+                <p class="footer_sec_desc">We love to listen. Write to us at</p>
+                <p class="footer_sec_desc">
+                  <span class="footer_sec_title">customercareng@mtn.com</span>
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- footer links -->
+          <section class="footer_section footer_sec2">
+            <div class="footer_sec2_item">
+              <h3 class="footer_sec2_title">Our Company</h3>
+              <ul class="list_ul">
+                <li class="list_styles" style="color: #d8d8d8">About MTN</li>
+                <li class="list_styles">Code of Ethics</li>
+                <li class="list_styles">Privacy & Data Protection</li>
+                <li class="list_styles">MoMo</li>
+                <li class="list_styles">MoMo</li>
+                <li class="list_styles">Business</li>
+              </ul>
+            </div>
+            <div class="footer_sec2_item">
+              <h3 class="footer_sec2_title">Legal</h3>
+              <ul class="list_ul">
+                <li class="list_styles" style="color: #d8d8d8">
+                  Privacy Policy & Cookies
+                </li>
+                <li class="list_styles">Terms & Conditions</li>
+                <li class="list_styles">Return Policy</li>
+                <li class="list_styles">Delivery Policy</li>
+              </ul>
+            </div>
+            <div class="footer_sec2_item">
+              <h3 class="footer_sec2_title">Explore eShop</h3>
+              <ul class="list_ul">
+                <li class="list_styles" style="color: #d8d8d8">Broadband</li>
+                <li class="list_styles">Data Bundles</li>
+              </ul>
+            </div>
+            <div class="footer_sec2_item">
+              <h3 class="footer_sec2_title">Help</h3>
+              <ul class="list_ul">
+                <li class="list_styles" style="color: #d8d8d8">FAQs</li>
+                <li class="list_styles">Service centers</li>
+                <li class="list_styles">Coverage Map</li>
+                <li class="list_styles">Delivery Timeline</li>
+                <li class="list_styles">Broadband Faulty Device Management</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- footer socials -->
+          <section class="socials">
+            <img src="./asset/mtnLogo.svg" alt="" />
+            <p class="social_desc" style="color: #5b5b5b">
+              ©2023 MTN Nigeria Communications PLC. All rights reserved. Privacy
+              Policy & Data Protection
+            </p>
+            <div class="social_link">
+              <img src="./asset/facebookIcon.svg" alt="" />
+              <img src="./asset/twitterIcon.svg" alt="" />
+              <img src="./asset/instagramIcon.svg" alt="" />
+              <img src="./asset/youtubeIcon.svg" alt="" />
+            </div>
+          </section>
+        </div>
+      </footer>
+    </div>
+    <!-- jQuery (Required for Owl Carousel) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  
+      
+    <!-- jQuery (Required for Owl Carousel) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        // Initialize Owl Carousel
+        var owl = $(".owl-carousel-trending").owlCarousel({
+          items: 5, 
+          loop: true, 
+          margin: 18, 
+          nav: false,
+          autoplay: true, 
+          autoplayTimeout: 3000, 
+          responsive: {
+            0: {
+              items: 1, 
+            },
+            600: {
+              items: 2, 
+            },
+            1000: {
+              items: 5, 
+            },
+          },
+        });
+
+        // Custom Previous Button
+        $(".prev-btn").click(function () {
+          owl.trigger("prev.owl.carousel");
+        });
+
+        // Custom Next Button
+        $(".next-btn").click(function () {
+          owl.trigger("next.owl.carousel");
+        });
+      });
+      window.addEventListener("scroll", function () {
+        const headerNav = document.querySelector(".headerNav");
+        const stickyOffset = headerNav.offsetTop;
+
+        if (window.pageYOffset > stickyOffset) {
+          headerNav.classList.add("sticky");
+        } else {
+          headerNav.classList.remove("sticky");
+        }
+      });
+    </script>
+  </body>
+</html>
